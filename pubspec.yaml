@@ -1,0 +1,74 @@
+name: e_space_mobile
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.17.0
+  # GetX state management
+  get: ^4.3.8
+  #local storage
+  get_storage: ^2.0.3
+  #network
+  dio: ^4.0.1
+  dio_retry_plus: ^0.0.3
+  retrofit: ^2.0.1
+  #image svg step_pages
+  flutter_svg: ^0.23.0+1
+  #image cache step_pages
+  cached_network_image: ^3.1.0
+  #google translation
+  translator: ^0.1.7
+  #keyboard dismiss
+  keyboard_dismisser: ^2.0.0
+  #swipe to bottom refresh step_pages
+  liquid_pull_to_refresh: ^3.0.0
+  # rest api notifications
+  alice: ^0.2.4
+  # search bar step_pages
+  flutter_staggered_grid_view: ^0.4.1
+  # internet connect
+  connectivity_plus: ^2.0.2
+  # percent indicator
+  percent_indicator: ^3.4.0
+  flutter_spinkit: ^5.1.0
+  # google map
+  google_maps_flutter: ^2.0.11
+  location: ^4.3.0
+  flutter_webview_plugin: ^0.4.0
+  mask_text_input_formatter: ^2.0.0
+  showcaseview: ^1.1.2
+  # for image selection
+  image_picker: ^0.8.4+3
+  # for make smaller size of image
+  flutter_image_compress: ^1.1.0
+  file_picker: ^4.1.6
+  aligned_dialog: ^0.0.6
+  fluttertoast: ^8.0.8
+  #for map function
+  maps_toolkit: ^2.0.0
+  # url launcher
+  url_launcher: ^6.0.12
+  geolocator: ^7.7.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  retrofit_generator: any
+  build_runner: ^2.1.4
+  flutter_lints: ^1.0.4
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/svg/
+    - assets/png/
